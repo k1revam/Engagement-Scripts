@@ -1,5 +1,6 @@
-# usage
+# usage ::::  python3 exploit.py <query> <row_number>
 # python3 exploit.py "select ORA_DB_NAME from dual" 1
+# python3 exploit.py "SELECT table_name FROM all_tables" 10
 
 import requests as req
 import sys
